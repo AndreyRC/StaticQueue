@@ -17,10 +17,6 @@ public class Main {
         System.out.println("Elemento removido: " + fila.remove()); // Deve ser 1
         System.out.println("Elemento removido: " + fila.remove()); // Deve ser 2
 
-        // Adiciona mais alguns elementos
-        fila.add(6);
-        fila.add(7);
-
         // Verifica se a fila está vazia e imprime o estado da fila
         System.out.println("A fila está vazia? " + fila.isEmpty()); // Deve ser falso
         System.out.println("A fila está cheia? " + fila.isFull());  // Deve ser verdadeiro
